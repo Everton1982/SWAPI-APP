@@ -8,7 +8,7 @@ const swapiFilms = axios.create({
 
 // const swapiPlanets = axios.create({
 //     //endpoint 1 planets
-//     baseURL: 'https://swapi.dev/api/planets/'
+//     baseURL: 'https://swapi.dev/api/people/'
 // });
 
 export default swapiFilms;

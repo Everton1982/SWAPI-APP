@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const swapi = axios.create({
-    //endpoint 1 films
+    //endpoint base
     baseURL: 'https://swapi.dev/api'
 });
 

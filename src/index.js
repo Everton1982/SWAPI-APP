@@ -55,12 +55,12 @@ const App = () => {
                 <SafeAreaView>
                     <Text style={styles.people}>People</Text>
                     <Text style={styles.textTitle}>Name: {name}</Text>
-                    <Text style={styles.sinopse}>Height: {height}</Text>
-                    <Text style={styles.director}>Mass: {mass}</Text>
-                    <Text style={styles.producer}>Hair_color: {hair_color}</Text>
-                    <Text style={styles.release_date}>Skin_color: {skin_color}</Text>
-                    <Text style={styles.release_date}>Eye_color: {eye_color}</Text>
-                    <Text style={styles.release_date}>Birth_year: {birth_year}</Text>
+                    <Text style={styles.height}>Height: {height}</Text>
+                    <Text style={styles.mass}>Mass: {mass}</Text>
+                    <Text style={styles.hair}>Hair_color: {hair_color}</Text>
+                    <Text style={styles.skin}>Skin_color: {skin_color}</Text>
+                    <Text style={styles.eye}>Eye_color: {eye_color}</Text>
+                    <Text style={styles.birth}>Birth_year: {birth_year}</Text>
                 </SafeAreaView>
             </ScrollView>
         </View>
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
         paddingLeft: 20,
         textAlign: 'left',
         paddingTop: 50,
-        paddingBottom:50
+        paddingBottom: 50
     },
     text: {
         color: '#FFFF82',
@@ -99,7 +99,9 @@ const styles = StyleSheet.create({
         color: '#fff',
         paddingTop: 30,
         fontSize: 24,
-        padding: 10
+        paddingTop: 10,
+        paddingBottom: 10,
+        paddingLeft: 10
     },
     sinopse: {
         color: '#fff',
@@ -111,17 +113,20 @@ const styles = StyleSheet.create({
     director: {
         color: '#fff',
         paddingTop: 30,
+        paddingLeft: 10,
         fontSize: 20
     },
     producer: {
         color: '#fff',
         paddingTop: 30,
-        fontSize: 20
+        fontSize: 20,
+        padding: 10
     },
     release_date: {
         color: '#fff',
         paddingTop: 30,
-        fontSize: 20
+        fontSize: 20,
+        padding: 10
     },
     people: {
         color: '#FFFF82',
@@ -130,6 +135,44 @@ const styles = StyleSheet.create({
         textAlign: "center",
         paddingTop: 50,
         paddingBottom: 20,
-        paddingRight: 10
+        paddingRight: 10,
+        padding: 10,
+        padding: 10
+    },
+    height: {
+        color: '#fff',
+        paddingTop: 30,
+        fontSize: 20,
+        padding: 10
+    },
+    mass: {
+        color: '#fff',
+        paddingTop: 30,
+        fontSize: 20,
+        padding: 10
+    },
+    hair: {
+        color: '#fff',
+        paddingTop: 30,
+        fontSize: 20,
+        padding: 10
+    },
+    skin: {
+        color: '#fff',
+        paddingTop: 30,
+        fontSize: 20,
+        padding: 10
+    },
+    eye: {
+        color: '#fff',
+        paddingTop: 30,
+        fontSize: 20,
+        padding: 10
+    },
+    birth: {
+        color: '#fff',
+        paddingTop: 30,
+        fontSize: 20,
+        padding: 10
     }
 });
